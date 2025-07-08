@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+db.sqlite3
+/static/
+/media/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# PostgreSQL/Redis data (if mapped locally)
+postgres_data/
+redis_data/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
