@@ -3,6 +3,9 @@ from .models import Property
 import logging
 from django_redis import get_redis_connection
 
+
+ if total_requests > 0 else 0
+
 def get_all_properties():
     properties = cache.get('all_properties')
     if properties is None:
