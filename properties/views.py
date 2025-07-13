@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.views.decorators.cache import cache_page
 from .utils import get_all_properties
+from django.http import JsonResponse 
+
+return JsonResponse({", "data"]
 
 # Create your views here.
 
